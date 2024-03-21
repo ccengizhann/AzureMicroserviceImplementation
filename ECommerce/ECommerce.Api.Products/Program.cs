@@ -1,4 +1,21 @@
+using ECommerce.Api.Products.Db;
+using ECommerce.Api.Products.Interfaces;
+using ECommerce.Api.Products.Providers;
+using Microsoft.EntityFrameworkCore;
+using AutoMapper;
+
+
 var builder = WebApplication.CreateBuilder(args);
+
+//Add db
+builder.Services.AddDbContext<ProductsDbContext>(options =>
+{
+    options.UseInMemoryDatabase("Products");
+    
+});
+
+builder.Services.AddScoped<IProductsProvider, ProductsProvider>();
+builder.Services.AddAutoMapper(typeof(Program));
 
 // Add services to the container.
 
