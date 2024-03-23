@@ -3,18 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Api.Customers", "ECommerce.Api.Customers\ECommerce.Api.Customers.csproj", "{DD853366-DACB-424F-966B-4CACC0A6F6C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Api.Customers", "ECommerce.Api.Customers\ECommerce.Api.Customers.csproj", "{DD853366-DACB-424F-966B-4CACC0A6F6C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Api.Products", "ECommerce.Api.Products\ECommerce.Api.Products.csproj", "{EBFC40AE-1D67-48D6-9A25-A5C077E5B3B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Api.Products", "ECommerce.Api.Products\ECommerce.Api.Products.csproj", "{EBFC40AE-1D67-48D6-9A25-A5C077E5B3B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Api.Orders", "ECommerce.Api.Orders\ECommerce.Api.Orders.csproj", "{6F2F207C-CCA9-45B3-A00E-0B2029E42D96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Api.Orders", "ECommerce.Api.Orders\ECommerce.Api.Orders.csproj", "{6F2F207C-CCA9-45B3-A00E-0B2029E42D96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Api.Search", "ECommerce.Api.Search\ECommerce.Api.Search.csproj", "{2534FED2-519D-48D3-8213-742E272070AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Api.Search", "ECommerce.Api.Search\ECommerce.Api.Search.csproj", "{2534FED2-519D-48D3-8213-742E272070AA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C56C3C6D-843D-4159-A09E-C96A5400DF4B}"
 	ProjectSection(SolutionItems) = preProject
 		Proccess.txt = Proccess.txt
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Api.Products.Test", "ECommerce.Api.Products.Test\ECommerce.Api.Products.Test.csproj", "{EB0A920F-5927-4BE8-9CA7-865E2F5854C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +40,10 @@ Global
 		{2534FED2-519D-48D3-8213-742E272070AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2534FED2-519D-48D3-8213-742E272070AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2534FED2-519D-48D3-8213-742E272070AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB0A920F-5927-4BE8-9CA7-865E2F5854C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB0A920F-5927-4BE8-9CA7-865E2F5854C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB0A920F-5927-4BE8-9CA7-865E2F5854C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB0A920F-5927-4BE8-9CA7-865E2F5854C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
